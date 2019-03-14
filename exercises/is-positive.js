@@ -8,6 +8,17 @@
  */
 
 // Your code:
+const nombre = Number();
+
+if (nombre > 0) {
+
+    return 'true'
+}else{
+    return 'false'
+}
+ 
+
+
 
 
 //* Begin of tests
