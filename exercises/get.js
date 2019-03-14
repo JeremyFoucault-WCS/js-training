@@ -14,7 +14,8 @@ const sourceObject = {
   str: 'some text',
   log: console.log,
 }
-
+const {num, bool, str, log} = sourceObject;
+return sourceObject
 // Your code :
 
 //* Begin of tests
