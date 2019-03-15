@@ -9,6 +9,11 @@
 
 // Your code :
 
+const circular= {
+    value: "circular",
+}
+ return this.value
+
 //* Begin of tests
 const assert = require('assert')
 

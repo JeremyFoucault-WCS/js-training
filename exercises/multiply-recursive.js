@@ -11,6 +11,29 @@
 
 // Your code :
 
+function multiply(a, b){
+    if (a === 0 || b === 0) {
+    return 0;
+    }
+    if (b > 0){
+        return a + multiply(a, b-1);
+    }
+    if (b < 0 ){
+        return -multiply(a, -b);
+    }
+}
+
+
+function factorial(x) {
+    // This is the base case.
+    if (x === 0) return 1;
+    // This is the recursive one.
+    else return x * factorial(x - 1);
+  }
+  
+  factorial(5); // output : 120
+  
+
 //* Begin of tests
 const assert = require('assert')
 
